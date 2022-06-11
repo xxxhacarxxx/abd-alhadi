@@ -1,0 +1,120 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(168, 182, 133);
+    direction: rtl;
+}
+.container
+{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #808080;
+    color: aliceblue;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+header a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: center;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: center;
+}
+ header #brand h1
+ {
+     margin: 0;
+     color: #353637;
+ }
+ header nav
+ {
+     float: center;
+     margin-top: 10px;
+ }
+ header .current a
+ {
+     color: #32a0c2;
+     font-weight: bold;
+ }
+ header a:hover
+ {
+     color: #cccccc;
+     font-weight: bold;
+ }
+ #showcase
+ {
+     min-height: 450px;
+     background: url("../image/abd2.jpg") no-repeat center;
+     background-size: cover;
+ }
+ #newsletter
+ {
+     padding: 15px;
+     color: #ffffff;
+     background: #353637;
+ }
+ #newsletter h1
+{
+     float: center;
+ }
+ #newsletter from
+ {
+     float: center;
+     margin-top: 15px;
+ }
+.button
+{
+    height: 38px;
+    background: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+footer {
+    padding: 15px;
+    margin-top: 20px;
+    color: #353637;
+    background-color: rgb(168, 182, 133);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    {
+        float: center;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display:block;
+        width: 100%;
+    }
+}
